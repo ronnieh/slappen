@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLapp", "SLapp\SLapp.csproj", "{7F99B108-33E1-4306-BB1E-D8CFDD143A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLApi", "SLApi\SLApi.csproj", "{96267277-4797-4355-A577-9407CAEDF07E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F99B108-33E1-4306-BB1E-D8CFDD143A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F99B108-33E1-4306-BB1E-D8CFDD143A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F99B108-33E1-4306-BB1E-D8CFDD143A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F99B108-33E1-4306-BB1E-D8CFDD143A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96267277-4797-4355-A577-9407CAEDF07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96267277-4797-4355-A577-9407CAEDF07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96267277-4797-4355-A577-9407CAEDF07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96267277-4797-4355-A577-9407CAEDF07E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
