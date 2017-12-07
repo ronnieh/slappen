@@ -45,8 +45,7 @@ namespace TrafikApi.Controllers
             return Json(lines);
         }
         
-        [HttpGet("Journeys/{lineNumber}")]
-        [HttpGet("Journeys")]
+        [HttpGet("{lineNumber}/Journeys/")]
         public JsonResult GetJourneys(int? lineNumber = null)
         {
             var journeyPoints = _linesManager.GetJourneyPoints(lineNumber).Result;

@@ -9,7 +9,7 @@ using System.Linq;
 using Microsoft.Extensions.Caching.Memory;
 using System.Collections.Concurrent;
 
-namespace TrafikApi.SLApi.Lines
+namespace SLapp.SLApi
 {
     public class LinesManager{
         private readonly IMemoryCache _memoryCache;

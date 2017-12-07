@@ -28,6 +28,9 @@ namespace SLapp
 
             services.AddTransient<DisruptionManager>();
             services.AddTransient<LinesManager>();
+            services.AddTransient<TrafficStateManager>();
+            services.AddTransient<SiteInformationManager>();
+            services.AddTransient<RealTimeManager>();
 
         }
 
